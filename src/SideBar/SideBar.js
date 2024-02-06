@@ -8,7 +8,7 @@ const SideBar = () => {
                     dark:bg-slate-600 dark:text-white">
         
         <Link to="/">
-            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/NASA_Digital.gif'} className="size-auto" />} text="Learn about NASA Ditital Service!" />
+            <SideBarIcon className="NDS" icon={<img src={process.env.PUBLIC_URL + '/Icons/NASA_Digital.gif'} className="size-auto" />} text="Learn about NASA Ditital Service!" />
         </Link>
         <Link to="/NASA">
             <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/NASA.png'} />}  text="Learn about NASA!"/>

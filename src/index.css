@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 @layer components {
-
+    
+    
     .sidebar-icon {
         @apply relative flex items-center justify-center
         h-12 w-12 mt-2 mb-2 mx-auto
-        hover:text-white hover:bg-green-600
-        rounded-3xl hover:rounded-xl
+        hover:text-white hover:bg-gray-100
+        rounded-3xl hover:rounded-lg
         transition-all duration-150 ease-linear
         cursor-pointer;
     }
@@ -22,12 +23,31 @@
     }
 
     .content-container {
-        @apply flex flex-col
+        @apply inline-block
         bg-gray-300 dark:bg-gray-700
-        pl-16 pr-1 m-0
-        h-full w-full
+        pt-4 pl-20 m-0 mt-14
+        h-screen w-screen
         overflow-hidden
-        text-center;
+        text-left;
 
     }
+
+    .title {
+        @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+        text-white text-3xl 
+    }
+
+    .header {
+        @apply fixed top-0
+        drop-shadow-md
+        bg-gray-900 text-white
+        pl-20  pt-2 w-screen
+        h-14;
+    }
+
+    .searchBar {
+        @apply absolute top-3.5 right-20
+        text-black
+    }
+
 }

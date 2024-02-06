@@ -1,5 +1,6 @@
 import './App.css';
 import SideBar from './SideBar/SideBar';
+import Header from './Components/Header';
 import Home from './Components/NASA_Ditigal';
 import NASA from './Components/NASA';
 import Mars from './Components/Mars';
@@ -10,6 +11,7 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className='flex'>
+      <Header />
       <SideBar />
       <Routes onClick>
         <Route path="" element={ <Home /> } />
