@@ -8,7 +8,7 @@ const Main = () => {
             <p>To ensure successful NASA mission outcomes with modern digital practices.</p>
             
             <h2 className="text-2xl">Vision</h2>
-            <p className=" pl-16">
+            <p>
                 To transform NASA where digital exploration and human need converge. 
                 Our vision is to seamlessly fuse human-centered design with our legacy of exploration, ensuring that 
                 every touchpoint is a testament to innovation, collaboration, and human ingenuity.
@@ -16,7 +16,7 @@ const Main = () => {
 
             <br />
 
-            <p className=" pl-16">
+            <p>
                 Modeled on the United States Digital Service, the NASA Digital Service Team are Digital Service Experts from the OCIO. We bring human-centered design and digital practices to NASA. 
                 Digital Service teams exist at The White House, The Pentagon, Veterans Administration, Department of Agriculture, Center for Medicare and Medicaid, and many others. Digital Service 
                 origins even made a Time Magazine cover story. 
@@ -40,7 +40,7 @@ const Main = () => {
             <h3 className="text-xl">
                 Kickoff
             </h3>
-            <p className="pl-16">
+            <p>
                 We’ll meet with you to understand you and your users pain points, issues, concerns, and wants. (Typically a few hours)
             </p>
 
@@ -49,7 +49,7 @@ const Main = () => {
             <h3 className="text-xl">
                 Discovery
             </h3>
-            <p className="pl-16">
+            <p>
                 Next, we’ll work with you to schedule workshops, user research, user interviews, and sessions to better understand the problem.
                 We put the user at the center of all our work. We design with users, not for them. (Typically a few days or up to 2 weeks depending on complexity)
             </p>
@@ -59,7 +59,7 @@ const Main = () => {
             <h3 className="text-xl">
                 Scope
             </h3>
-            <p className="pl-16">
+            <p>
                 After discovery is complete, we’ll have an understanding of the problems we need to solve for you. We’ll work with you develop a
                 scope of work. (Typically a few hours)
             </p>
@@ -69,7 +69,7 @@ const Main = () => {
             <h3 className="text-xl">
                 Design
             </h3>
-            <p className="pl-16">
+            <p>
                 We’ll create product design that solves your problems. Get your feedback, iterate until its ready for shipping.
                 (Typically a few days to a week, more if scope is larger)
             </p>
@@ -88,7 +88,7 @@ const Main = () => {
             <h3 className="text-xl">
                 Continuous Improvement
             </h3>
-            <p className="pl-16">
+            <p>
                 After the product is live, we invite you to use the practices you've learned by working with us to continually upgrade
                 and improve your product. (Continual) 
             </p>

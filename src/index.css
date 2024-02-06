@@ -24,7 +24,7 @@
     .content-container {
         @apply flex flex-col
         bg-gray-300 dark:bg-gray-700
-        m-0
+        pl-16 pr-1 m-0
         h-full w-full
         overflow-hidden
         text-center;
