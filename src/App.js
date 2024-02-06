@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import SideBar from './SideBar/SideBar';
+import Home from './Components/NASA_Ditigal';
+import NASA from './Components/NASA';
+import Mars from './Components/Mars';
+import Gemini from './Components/Gemini';
+import Artemis from './Components/Artemis';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='flex'>
+      <SideBar />
+      <Routes onClick>
+        <Route path="" element={ <Home /> } />
+        <Route path="NASA" element={ <NASA /> } />
+        <Route path="Mars" element={<Mars />} />
+        <Route path="Gemini" element={<Gemini />} />
+        <Route path="Artemis" element={<Artemis />} />
+      </Routes>
     </div>
   );
 }
