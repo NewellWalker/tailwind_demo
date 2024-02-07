@@ -11,16 +11,16 @@ const SideBar = () => {
             <SideBarIcon className="NDS" icon={<img src={process.env.PUBLIC_URL + '/Icons/NASA_Digital.gif'} className="size-auto" />} text="Learn about NASA Ditital Service!" />
         </Link>
         <Link to="/NASA">
-            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/NASA.png'} />}  text="Learn about NASA!"/>
+            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/NASA.png'} alt="" />}  text="Learn about NASA!"/>
         </Link>
         <Link to="/Mars">
-            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/Mars.png'} />} text="Learn about Mars Rover!" />
+            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/Mars.png'} alt="" />} text="Learn about Mars Rover!" />
         </Link>
         <Link to="/Gemini">
-            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/Gemini.png'} />} text="Learn about Project Gemini!" />
+            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/Gemini.png'} alt="" />} text="Learn about Project Gemini!" />
         </Link>
         <Link to="/Artemis">
-            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/Artemis.png'} />} text="Learn about Artemis!" />
+            <SideBarIcon icon={<img src={process.env.PUBLIC_URL + '/Icons/Artemis.png'} alt="" />} text="Learn about Artemis!" />
         </Link>
     </div>
     )
