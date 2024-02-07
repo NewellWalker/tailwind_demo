@@ -1,10 +1,17 @@
+@import-normalize;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 @layer components {
-    
-    
+
     .sidebar-icon {
         @apply relative flex items-center justify-center
         h-12 w-12 mt-2 mb-2 mx-auto
@@ -22,14 +29,12 @@
         transition-all duration-100 scale-0 origin-left;
     }
 
-    .content-container {
-        @apply inline-block
-        bg-gray-300 dark:bg-gray-700
-        pt-4 pl-20 m-0 mt-14
-        h-screen w-screen
-        overflow-hidden
-        text-left;
-
+    .header {
+        @apply flex flex-row items-center 
+        drop-shadow-md
+        bg-blue-950 text-white
+        pl-20  pt-2
+        w-full h-16;
     }
 
     .title {
@@ -37,17 +42,18 @@
         text-white text-3xl 
     }
 
-    .header {
-        @apply fixed top-0
-        drop-shadow-md
-        bg-gray-900 text-white
-        pl-20  pt-2 w-screen
-        h-14;
+    .searchBar {
+        @apply w-1/6 absolute right-3
+        text-black;
     }
 
-    .searchBar {
-        @apply absolute top-3.5 right-20
-        text-black
+    .content-container {
+        @apply flex flex-col
+        bg-gray-100 dark:bg-gray-700
+        pt-4 pl-20 m-0
+        h-screen w-screen
+        overflow-hidden
+        text-left;
     }
 
 }
